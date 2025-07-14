@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/bypass.py": {
+      "runtime": "python3.11"
+    }
+  },
+  "routes": [
+    { "src": "/api/bypass", "dest": "api/bypass.py" }
+  ]
+}
