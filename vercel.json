@@ -1,10 +1,13 @@
 {
   "functions": {
     "api/bypass.py": {
-      "runtime": "python3.11"
+      "runtime": "vercel-python@0.5.0"
     }
   },
   "routes": [
-    { "src": "/api/bypass", "dest": "api/bypass.py" }
+    {
+      "src": "/api/bypass",
+      "dest": "api/bypass.py"
+    }
   ]
 }
